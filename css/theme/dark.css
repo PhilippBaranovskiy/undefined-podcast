@@ -1,0 +1,16 @@
+body {
+	background-color: hsl(0, 0%, 10%);
+	color: hsl(0, 0%, 85%);
+}
+a:link {
+	color: hsl(60, 30%, 50%);
+}
+a:hover, a:visited:hover {
+	color: hsl(60, 50%, 50%);
+}
+a:active, a:visited:active {
+	color: hsl(60, 70%, 50%);
+}
+a:visited {
+	color: hsl(60, 0%, 50%);
+}

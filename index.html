@@ -1,0 +1,27 @@
+---
+layout: default
+title: Undefined подкаст, Лена и Филипп переводят и читают Frontend истории
+---
+
+<div class="introhead">
+	<h1>Undefined подкаст</h1>
+	<p>
+		Лена и Филипп переводят и читают Frontend истории;
+	</p>
+	<p>
+		Аудио версии переводов статей из мира Javascript, Frontend разработки и веб технологий. В рамках фронтенд сообщества Undefined.
+	</p>
+</div>
+
+<div class="page-section">
+	<h2 id="podcast">Выпуски подкаста</h2>
+	<ol reversed>
+		{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ol>
+</div>

@@ -2,9 +2,15 @@
 layout: default
 ---
 <div class="introhead">
+	<span class="back-link">
+		←
+		<a href="/undefined-podcast/">к списку выпусков</a>
+	<span>
 	<h1>{{ page.title }}</h1>
 	<span class="date">
 		{{ page.date | date: '%B %d, %Y' }}
+		<br>{{ page.credits }}
 	</span>
 </div>
-<p>{{ content }}</p>
+<div class="episode_player">{{ page.embed }}</div>
+{{ content }}

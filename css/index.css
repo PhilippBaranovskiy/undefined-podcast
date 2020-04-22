@@ -92,3 +92,6 @@ p {
 figure {
 	display: flex;
 }
+figure img {
+	max-width: 100%;
+}

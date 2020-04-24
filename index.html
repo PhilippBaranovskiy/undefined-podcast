@@ -32,11 +32,7 @@ title: Undefined подкаст, Лена и Филипп переводят и 
 		{% for post in site.posts %}
 			<li>
 				<a href="{{ post.url }}">
-					{% if post.short_title %}
-						{{ post.short_title }}
-					{% else %}
-						{{ post.title }}
-					{% endif %}
+					{{ post.title }}
 				</a>
 			</li>
 		{% endfor %}

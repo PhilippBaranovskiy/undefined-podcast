@@ -1,2 +1,2 @@
-permalink: /:title
+permalink: /:category/:title
 encoding: UTF-8
